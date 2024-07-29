@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "plyconfig.json": "jsonc"
+    },
+    "cSpell.words": [
+        "Eightpuzzle",
+        "succesor"
+    ],
+    "cmake.configureOnOpen": false
+}
