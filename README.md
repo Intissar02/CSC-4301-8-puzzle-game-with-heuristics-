@@ -29,3 +29,15 @@ The performance of each heuristic is evaluated based on several metrics, includi
 Conclusion
 
 This project demonstrates the application of heuristic search algorithms in solving the 8-puzzle problem. By comparing different heuristics, it highlights the importance of heuristic selection in optimizing search performance. The solver serves as an educational tool for understanding heuristic search techniques and their practical applications in problem-solving.
+
+## Azure Pipeline Mapping
+
+| Pipeline Step       | What I Did                                                | Azure Equivalent              |
+|---------------------|-----------------------------------------------------------|-------------------------------|
+| Data Ingestion      | Loaded initial and goal puzzle states from CSV            | Azure Data Factory            |
+| Processing          | Applied A* / BFS / DFS search logic in Python             | Azure Databricks (PySpark)    |
+| Storage             | Saved results and comparison metrics in CSV               | Azure SQL Database            |
+| Modeling/Analysis   | Compared algorithm performance (time, steps, nodes)       | DBT (custom metrics modeling) |
+| Automation          | Used automate.py to run experiments across inputs         | Azure Logic Apps              |
+| Versioning & CI/CD  | Tracked code and structure in GitHub                      | Azure DevOps Git              |
+
